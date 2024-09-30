@@ -23,32 +23,6 @@ body {
     color: white;
 }
 
-.cabecalho {
-    margin: 2em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.cabecalho-navegacao {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3.5em;
-}
-
-.cabecalho-navegacao-link {
-    font: 600 1.2em var(--fonte1);
-    text-decoration: none;
-    color: var(--cor1);
-}
-
-.cabecalho-navegacao-link:hover {
-    text-decoration: underline;
-}
-
 .principal {
     margin: 2em;
     display: flex;
