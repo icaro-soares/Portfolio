@@ -23,6 +23,22 @@ body {
     color: white;
 }
 
+.cabecalho {
+    margin: 3.5em;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabecalho-navegacao-link {
+    font: 400 1.2em var(--fonte2);
+    text-decoration: none;
+    color: var(--cor1);
+}
+
 .principal {
     margin: 2em;
     display: flex;
