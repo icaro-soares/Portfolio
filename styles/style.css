@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte1: 'Montserrat', sans-serif;
+    --fonte2: 'Krona One', sans-serif;
+    --cor1: #22D4FD;
+    --cor2: #272727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.cabecalho {
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.5em;
+}
+
+.cabecalho-navegacao-link {
+    font: 600 1.2em var(--fonte1);
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.cabecalho-navegacao-link:hover {
+    text-decoration: underline;
+}
+
+.principal {
+    margin: 2em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.principal-secao-titulo {
+    font: 400 1.2em var(--fonte2);
+    line-height: 1.5em;
+}
+
+.principal-secao-titulo > strong {
+    color: var(--cor1);
+}
+
+.principal-secao-texto {
+    font: 200 1em var(--fonte1);
+    line-height: 1.5em;
+    padding: 2.5em 0;
+}
+
+.principal-secao-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.principal-secao-social-links {
+    font: 400 1em var(--fonte2);
+}
+
+.principal-secao-social-links-link {
+    width: 300px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font: 600 1em var(--fonte1);
+    border: 1px solid var(--cor1);
+    border-radius: .5em;
+    padding: .5em;
+}
+
+#github::before {
+    content: url('../assets/github.png');
+    display: inline-block;
+    align-items: center;
+    padding-right: .3em;
+}
+
+#insta::before {
+    content: url('../assets/instagram.png');
+    display: inline-block;
+    align-items: center;
+    padding-right: .3em;
+}
+
+#twitch::before {
+    content: url('../assets/twitch.png');
+    display: inline-block;
+    align-items: center;
+    padding-right: .3em;
+}
+
+.rodape {
+    background-color: var(--cor1);
+    color: black;
+    text-align: center;
+    padding: .3em;
+}
+
+.rodape-texto {
+    font: 200 1em var(--fonte1);
+}
