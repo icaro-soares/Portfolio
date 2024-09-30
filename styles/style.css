@@ -57,7 +57,7 @@ body {
 .principal-secao-texto {
     font: 200 1em var(--fonte1);
     line-height: 1.5em;
-    padding: 1em 0;
+    margin: 1em 0;
 }
 
 .principal-secao-social {
