@@ -87,17 +87,6 @@ body {
     padding-right: .3em;
 }
 
-.rodape {
-    background-color: var(--cor1);
-    color: black;
-    text-align: center;
-    padding: .3em;
-}
-
-.rodape-texto {
-    font: 200 1em var(--fonte1);
-}
-
 @media screen and (min-width: 600px) {
     .principal {
         margin: 6em;
@@ -127,11 +116,5 @@ body {
     .principal-secao-social-links-link:hover {
         background-color: var(--cor2);
         transition: .3s;
-    }
-    .rodape {
-        padding: 1.7em;
-    }
-    .rodape-texto {
-        font: 400 1em var(--fonte1);
     }
 }
