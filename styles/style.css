@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    margin: 4em;
+    margin: 4em 2em;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -75,7 +75,7 @@ body {
 
 @media screen and (min-width: 600px) {
     .principal {
-        margin: 6em;
+        margin: 6em 3em;
         display: flex;
         flex-direction: row;
         align-items: center;
