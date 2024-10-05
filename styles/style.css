@@ -14,11 +14,8 @@
     box-sizing: border-box;
 }
 
-html {
-    height: 100vh;
-}
-
 body {
+    height: 100vh;
     background-color: black;
     color: white;
 }
