@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    margin: 2em;
+    margin: 4em;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -32,10 +32,8 @@ body {
     align-items: center;
 }
 
-.principal-secao-titulo,
-.principal-secao-subtitulo {
+.principal-secao-titulo {
     font: 400 1.2em var(--fonte2);
-    line-height: 1.5em;
 }
 
 .destaque {
@@ -43,6 +41,7 @@ body {
 }
 
 .principal-secao-texto {
+    text-align: justify;
     font: 200 1em var(--fonte1);
     line-height: 1.5em;
     margin: 1em 0;
